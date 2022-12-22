@@ -402,7 +402,7 @@ g.addEdge("47", "48", 1);
 g.addEdge("47", "60", 1);
 g.addEdge("48", "49", 1);
 g.addEdge("48", "50", 1);
-g.addEdge("49", "92", 1);
+
 g.addEdge("49", "96", 1);
 g.addEdge("50", "61", 1);
 g.addEdge("51", "52", 1);
@@ -605,7 +605,7 @@ g.addEdge("213", "214", 1);
 // console.log(a)
 
 
-
+//center screen
 const PATH_MAIN_MAP = {
     zoom: 15,
     center: {lat: 20.999850, lng: 105.846637 },
@@ -659,7 +659,7 @@ submit?.addEventListener('click', () => {
     
 
 })
-
+// them diem mau do
 function addMaker(data){
     data.forEach(e=>{
 
@@ -670,6 +670,8 @@ function addMaker(data){
           });
     })
 }
+
+// ve viền đổ trên bản đồ
 function initMap(): void {
      map = new google.maps.Map(
         document.getElementById("map") as HTMLElement,
